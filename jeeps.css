@@ -626,6 +626,12 @@
   }
   /* Featured Cars Section End */
   
+
+  #btn{
+    position: absolute;
+    margin-left: 10px;
+  }
+  
   /* Modals Start */
   .modal-content {
       border-radius: 8px; /* Softer modal corners */

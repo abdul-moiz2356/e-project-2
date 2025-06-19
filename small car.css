@@ -241,7 +241,7 @@
   .section-title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistent font */
     font-weight: 700;
-    color: #3e4e41; /* Theme color */
+    color: #000; /* Theme color */
     letter-spacing: 1px;
     font-size: 2.2rem; /* Slightly adjusted size */
     margin-bottom: 3.5rem; /* More space below title */
@@ -296,7 +296,7 @@
         .section-title {
             font-size: 2.5rem;
             margin-bottom: 20px;
-            color: #222;
+            color: #000;
             position: relative;
             display: inline-block;
         }
@@ -587,7 +587,7 @@
   .featured-cars .card-img-top {
     border-top-left-radius: 8px; /* Match card radius */
     border-top-right-radius: 8px;
-    max-height: 220px; /* Control image height */
+    height: 220px; /* Control image height */
     object-fit: cover;
   }
   
@@ -626,6 +626,11 @@
   }
   /* Featured Cars Section End */
   
+
+  #btn{
+    position: absolute;
+    margin-left: 10px;
+  }
   /* Modals Start */
   .modal-content {
       border-radius: 8px; /* Softer modal corners */
