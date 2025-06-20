@@ -662,7 +662,6 @@
       padding: 1.5rem 2rem; /* More padding in modal body */
   }
   .modal-body img.img-fluid {
-      height: 400px;  
       width: 100%;
       border-radius: 6px; /* Rounded image inside modal */
       margin-bottom: 1.5rem; /* More space below image */
